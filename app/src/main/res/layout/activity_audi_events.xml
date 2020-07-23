@@ -1,0 +1,209 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whiteColor"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:screenOrientation="portrait">
+
+    <include layout="@layout/back" />
+    <!-- vertical ScrollView to make all the items or views scrollable -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+        <!-- LinearLayout Inside ScrollView -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- create a Linear Layout with horizontal orientation and weightSum property -->
+
+
+            <!-- place one TextView and one EditText inside layout using weight property -->
+
+            <ImageView
+                android:id="@+id/oneImg"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:paddingStart="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/dancee"
+                android:text="First Name"
+                android:textColor="@android:color/black"
+                tools:ignore="RtlSymmetry"
+                android:contentDescription="TODO" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/biryani_extralight"
+                android:gravity="center"
+                android:text="DANCE"
+                android:textColor="@android:color/black"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/twoImg"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/singingg"
+                android:text="First Name"
+                android:textColor="@android:color/black"
+                tools:ignore="RtlHardcoded,RtlSymmetry"
+                android:contentDescription="TODO" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/biryani_extralight"
+                android:gravity="center"
+                android:text="SINGING"
+                android:textColor="@android:color/black"
+                android:textSize="25sp" />
+
+
+            <!-- create a Linear Layout with horizontal orientation and weightSum property -->
+
+
+            <!-- place one TextView and one EditText inside layout using weight property -->
+
+            <ImageView
+                android:id="@+id/threeImg"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/skitt"
+                android:text="First Name"
+                android:textColor="@android:color/black"
+                android:contentDescription="TODO" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/biryani_extralight"
+                android:gravity="center"
+                android:text="SKIT"
+                android:textColor="@android:color/black"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/fourImg"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/admadshoww"
+                android:text="First Name"
+                android:textColor="@android:color/black"
+                android:contentDescription="TODO" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/biryani_extralight"
+                android:gravity="center"
+                android:text="AD MAD SHOW"
+                android:textColor="@android:color/black"
+                android:textSize="25sp" />
+
+
+            <!-- create a Linear Layout with horizontal orientation and weightSum property -->
+
+
+            <!-- place one TextView and one EditText inside layout using weight property -->
+
+            <ImageView
+                android:id="@+id/fiveImg"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/mimiryy"
+                android:text="First Name"
+                android:textColor="@android:color/black"
+                android:contentDescription="TODO" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/biryani_extralight"
+                android:gravity="center"
+                android:text="MIMICRY"
+                android:textColor="@android:color/black"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/sixImg"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/quizz"
+                android:text="First Name"
+                android:textColor="@android:color/black"
+                android:contentDescription="TODO" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/biryani_extralight"
+                android:gravity="center"
+                android:text="IT QUIZ"
+                android:textColor="@android:color/black"
+                android:textSize="25sp" />
+
+
+            <!-- place one TextView and one EditText inside layout using weight property -->
+
+
+            <!-- create a Linear Layout with horizontal orientation and weightSum property -->
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

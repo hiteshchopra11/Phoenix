@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:screenOrientation="portrait">
+
+
+    <include layout="@layout/back" />
+
+    <ImageView
+        android:id="@+id/audi_events"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="8dp"
+        android:layout_weight="1"
+        android:scaleType="fitXY"
+        android:src="@drawable/audinew"
+        android:contentDescription="TODO" />
+
+    <ImageView
+        android:id="@+id/tech_events"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="8dp"
+        android:layout_weight="1"
+        android:scaleType="fitXY"
+        android:src="@drawable/tech"
+        android:contentDescription="TODO" />
+
+    <ImageView
+        android:id="@+id/non_tech_events"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="8dp"
+        android:layout_weight="1"
+        android:scaleType="fitXY"
+        android:src="@drawable/nontech"
+        android:contentDescription="TODO" />
+
+</LinearLayout>
+

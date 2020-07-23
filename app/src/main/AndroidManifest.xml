@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.h3xp40it.ggdsd.phoenix"
+    android:versionCode="2">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+        <activity android:name="com.h3xp40it.ggdsd.phoenix.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.h3xp40it.ggdsd.phoenix.Events"
+            android:label="Events"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.h3xp40it.ggdsd.phoenix.MainActivity" />
+        <activity
+            android:name="com.h3xp40it.ggdsd.phoenix.About"
+            android:label="About"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.h3xp40it.ggdsd.phoenix.MainActivity" />
+        <activity
+            android:name="com.h3xp40it.ggdsd.phoenix.Contact"
+            android:label="Contact"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.h3xp40it.ggdsd.phoenix.MainActivity" />
+        <activity
+            android:name="com.h3xp40it.ggdsd.phoenix.AudiEvents"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.h3xp40it.ggdsd.phoenix.Events" />
+        <activity
+            android:name="com.h3xp40it.ggdsd.phoenix.TechEvents"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.h3xp40it.ggdsd.phoenix.Events" />
+        <activity
+            android:name="com.h3xp40it.ggdsd.phoenix.NonTechEvents"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.h3xp40it.ggdsd.phoenix.Events" />
+        <activity
+            android:name="com.h3xp40it.ggdsd.phoenix.Dance"
+            android:parentActivityName="com.h3xp40it.ggdsd.phoenix.AudiEvents" />
+        <activity
+            android:name="com.h3xp40it.ggdsd.phoenix.Singing"
+            android:parentActivityName="com.h3xp40it.ggdsd.phoenix.AudiEvents" />
+        <activity
+            android:name="com.h3xp40it.ggdsd.phoenix.Skit"
+            android:parentActivityName="com.h3xp40it.ggdsd.phoenix.AudiEvents" />
+        <activity
+            android:name="com.h3xp40it.ggdsd.phoenix.AdMadShow"
+            android:parentActivityName="com.h3xp40it.ggdsd.phoenix.AudiEvents" />
+        <activity
+            android:name="com.h3xp40it.ggdsd.phoenix.Mimicry"
+            android:parentActivityName="com.h3xp40it.ggdsd.phoenix.AudiEvents" />
+        <activity
+            android:name="com.h3xp40it.ggdsd.phoenix.Debugging"
+            android:parentActivityName="com.h3xp40it.ggdsd.phoenix.TechEvents" />
+        <activity
+            android:name="com.h3xp40it.ggdsd.phoenix.WebDesigning"
+            android:parentActivityName="com.h3xp40it.ggdsd.phoenix.TechEvents" />
+        <activity
+            android:name="com.h3xp40it.ggdsd.phoenix.ItPresentation"
+            android:parentActivityName="com.h3xp40it.ggdsd.phoenix.TechEvents" />
+        <activity
+            android:name="com.h3xp40it.ggdsd.phoenix.TypeOMeter"
+            android:parentActivityName="com.h3xp40it.ggdsd.phoenix.TechEvents" />
+        <activity
+            android:name="com.h3xp40it.ggdsd.phoenix.LanGaming"
+            android:parentActivityName="com.h3xp40it.ggdsd.phoenix.TechEvents" />
+        <activity
+            android:name="com.h3xp40it.ggdsd.phoenix.WallpaperDesigning"
+            android:parentActivityName="com.h3xp40it.ggdsd.phoenix.TechEvents" />
+        <activity
+            android:name="com.h3xp40it.ggdsd.phoenix.Rangoli"
+            android:parentActivityName="com.h3xp40it.ggdsd.phoenix.NonTechEvents" />
+        <activity
+            android:name="com.h3xp40it.ggdsd.phoenix.CollageMaking"
+            android:parentActivityName="com.h3xp40it.ggdsd.phoenix.NonTechEvents" />
+        <activity
+            android:name="com.h3xp40it.ggdsd.phoenix.PosterMaking"
+            android:parentActivityName="com.h3xp40it.ggdsd.phoenix.NonTechEvents" />
+        <activity
+            android:name="com.h3xp40it.ggdsd.phoenix.TShirtPainting"
+            android:parentActivityName="com.h3xp40it.ggdsd.phoenix.NonTechEvents" />
+        <activity
+            android:name="com.h3xp40it.ggdsd.phoenix.FacePainting"
+            android:parentActivityName="com.h3xp40it.ggdsd.phoenix.NonTechEvents" />
+        <activity
+            android:name="com.h3xp40it.ggdsd.phoenix.Sketching"
+            android:parentActivityName="com.h3xp40it.ggdsd.phoenix.NonTechEvents" />
+        <activity
+            android:name="com.h3xp40it.ggdsd.phoenix.DanceRegisteration"
+            android:parentActivityName="com.h3xp40it.ggdsd.phoenix.Dance" />
+        <activity
+            android:name="com.h3xp40it.ggdsd.phoenix.SingingRegistration"
+            android:parentActivityName="com.h3xp40it.ggdsd.phoenix.Singing" />
+        <activity
+            android:name="com.h3xp40it.ggdsd.phoenix.SkitRegistration"
+            android:parentActivityName="com.h3xp40it.ggdsd.phoenix.Skit" />
+        <activity
+            android:name="com.h3xp40it.ggdsd.phoenix.AdMadShowRegistration"
+            android:parentActivityName="com.h3xp40it.ggdsd.phoenix.AdMadShow" />
+        <activity
+            android:name="com.h3xp40it.ggdsd.phoenix.MimicryRegistration"
+            android:parentActivityName="com.h3xp40it.ggdsd.phoenix.Mimicry" />
+        <activity
+            android:name="com.h3xp40it.ggdsd.phoenix.DebuggingRegistration"
+            android:parentActivityName="com.h3xp40it.ggdsd.phoenix.Debugging" />
+        <activity
+            android:name="com.h3xp40it.ggdsd.phoenix.WebDesigningRegistration"
+            android:parentActivityName="com.h3xp40it.ggdsd.phoenix.WebDesigning" />
+        <activity
+            android:name="com.h3xp40it.ggdsd.phoenix.ItPresentationRegistration"
+            android:parentActivityName="com.h3xp40it.ggdsd.phoenix.ItPresentation" />
+        <activity
+            android:name="com.h3xp40it.ggdsd.phoenix.TypOMeterRegistration"
+            android:parentActivityName="com.h3xp40it.ggdsd.phoenix.TypeOMeter" />
+        <activity
+            android:name="com.h3xp40it.ggdsd.phoenix.LanGamingRegistration"
+            android:parentActivityName="com.h3xp40it.ggdsd.phoenix.LanGaming" />
+        <activity
+            android:name="com.h3xp40it.ggdsd.phoenix.WallpaperDesigningRegistration"
+            android:parentActivityName="com.h3xp40it.ggdsd.phoenix.WallpaperDesigning" />
+        <activity
+            android:name="com.h3xp40it.ggdsd.phoenix.TreasureHuntRegistration"
+            android:parentActivityName="com.h3xp40it.ggdsd.phoenix.LinuxTreasureHunt" />
+        <activity
+            android:name="com.h3xp40it.ggdsd.phoenix.RangoliRegistration"
+            android:parentActivityName="com.h3xp40it.ggdsd.phoenix.Rangoli" />
+        <activity
+            android:name="com.h3xp40it.ggdsd.phoenix.CollageMakingRegistration"
+            android:parentActivityName="com.h3xp40it.ggdsd.phoenix.CollageMaking" />
+        <activity
+            android:name="com.h3xp40it.ggdsd.phoenix.PosterMakingRegistration"
+            android:parentActivityName="com.h3xp40it.ggdsd.phoenix.PosterMaking" />
+        <activity
+            android:name="com.h3xp40it.ggdsd.phoenix.TShirtPaintingRegistration"
+            android:parentActivityName="com.h3xp40it.ggdsd.phoenix.TShirtPainting" />
+        <activity
+            android:name="com.h3xp40it.ggdsd.phoenix.FacePaintingRegistration"
+            android:parentActivityName="com.h3xp40it.ggdsd.phoenix.FacePainting" />
+        <activity
+            android:name="com.h3xp40it.ggdsd.phoenix.SketchingRegistration"
+            android:parentActivityName="com.h3xp40it.ggdsd.phoenix.Sketching" />
+        <activity android:name="com.h3xp40it.ggdsd.phoenix.LinuxTreasureHunt" />
+        <activity android:name="com.h3xp40it.ggdsd.phoenix.Quiz" />
+        <activity android:name="com.h3xp40it.ggdsd.phoenix.QuizRegistration"></activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

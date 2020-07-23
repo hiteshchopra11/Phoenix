@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MimicryRegistration">
+
+    <include layout="@layout/back" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/collegeTextBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="Enter College Name"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/collegeEditBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:hint="College Name"
+                android:inputType="text"
+                android:textSize="25sp"
+                tools:ignore="Autofill,UnusedAttribute" />
+
+            <TextView
+                android:id="@+id/contestantsTextBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="Enter Contestants Name"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/one"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:text="1"
+                    android:textColor="@color/blackColor"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/contestantOne"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="15"
+                    android:hint="1st Contestant"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:textSize="25sp"
+                    tools:ignore="Autofill,UnusedAttribute" />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="Enter Contact Number"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/et_phone_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:hint="Contact Number"
+                android:inputType="phone"
+                android:maxLength="10"
+                android:maxLines="1"
+                android:textSize="25sp"
+                tools:ignore="Autofill,UnusedAttribute" />
+
+            <Button
+                android:id="@+id/btn_generate_otp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Generate OTP"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/et_otp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:hint="Enter OTP"
+                android:inputType="number"
+                android:textSize="25sp"
+                tools:ignore="Autofill,UnusedAttribute" />
+
+            <Button
+                android:id="@+id/btn_sign_in"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Submit"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
